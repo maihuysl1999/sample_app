@@ -85,3 +85,1410 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 21ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 2453)
 
 
+Started GET "/" for 127.0.0.1 at 2021-07-29 08:36:09 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/ruby/2.7.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/ruby/2.7.0/gems/railties-6.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 30.1ms | Allocations: 336)
+Completed 200 OK in 72ms (Views: 42.4ms | ActiveRecord: 0.0ms | Allocations: 2534)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-07-29 08:36:39 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 75.0ms | Allocations: 4334)
+Completed 500 Internal Server Error in 85ms (ActiveRecord: 0.0ms | Allocations: 5457)
+
+
+  
+ActionView::Template::Error (undefined method `full_title' for #<ActionView::Base:0x00000000008890>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title yield :title %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7: 
+  
+app/views/layouts/application.html.erb:4
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-07-29 08:39:54 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 79.5ms | Allocations: 5486)
+Completed 200 OK in 96ms (Views: 85.9ms | ActiveRecord: 0.0ms | Allocations: 8084)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-07-29 08:40:09 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.9ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3098)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 3607)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-29 09:12:58 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 5860)
+Completed 200 OK in 48ms (Views: 37.0ms | ActiveRecord: 0.0ms | Allocations: 8497)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-07-29 09:13:10 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 3146)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-07-29 09:13:17 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3290)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 3817)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-07-29 09:13:18 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 3146)
+Completed 200 OK in 35ms (Views: 32.0ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:13:20 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 3142)
+Completed 200 OK in 33ms (Views: 30.5ms | ActiveRecord: 0.0ms | Allocations: 3564)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:13:23 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.6ms | Allocations: 3146)
+Completed 200 OK in 36ms (Views: 32.5ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:13:26 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.9ms | Allocations: 3143)
+Completed 200 OK in 45ms (Views: 41.9ms | ActiveRecord: 0.0ms | Allocations: 3536)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:13:26 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 3142)
+Completed 200 OK in 51ms (Views: 47.0ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/en/static_pages/help" for 127.0.0.1 at 2021-07-29 09:13:27 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.5ms | Allocations: 3736)
+Completed 200 OK in 54ms (Views: 48.1ms | ActiveRecord: 0.0ms | Allocations: 4615)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:13:28 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3142)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/en/static_pages/help" for 127.0.0.1 at 2021-07-29 09:13:30 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.2ms | Allocations: 3142)
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:13:32 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.4ms | Allocations: 3142)
+Completed 200 OK in 40ms (Views: 36.5ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:13:35 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 3142)
+Completed 200 OK in 40ms (Views: 36.8ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/vi/static_pages/home" for 127.0.0.1 at 2021-07-29 09:13:40 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | Allocations: 3142)
+Completed 200 OK in 44ms (Views: 41.2ms | ActiveRecord: 0.0ms | Allocations: 3533)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:13:42 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.6ms | Allocations: 3639)
+Completed 200 OK in 46ms (Views: 42.9ms | ActiveRecord: 0.0ms | Allocations: 4036)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:13:45 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 3143)
+Completed 200 OK in 35ms (Views: 32.4ms | ActiveRecord: 0.0ms | Allocations: 3539)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:13:45 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.9ms | Allocations: 3142)
+Completed 200 OK in 40ms (Views: 37.1ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:13:46 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 3142)
+Completed 200 OK in 51ms (Views: 47.6ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/en" for 127.0.0.1 at 2021-07-29 09:13:48 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 3639)
+Completed 200 OK in 42ms (Views: 36.4ms | ActiveRecord: 0.0ms | Allocations: 4145)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:14:12 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.4ms | Allocations: 3766)
+Completed 200 OK in 51ms (Views: 48.2ms | ActiveRecord: 0.0ms | Allocations: 4161)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:14:13 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3142)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:14:13 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.5ms | Allocations: 3142)
+Completed 200 OK in 54ms (Views: 47.8ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:14:14 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 3142)
+Completed 200 OK in 40ms (Views: 37.3ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:14:14 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 3142)
+Completed 200 OK in 50ms (Views: 47.1ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:14:14 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.2ms | Allocations: 3142)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 0.0ms | Allocations: 3536)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:14:15 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 3142)
+Completed 200 OK in 35ms (Views: 31.3ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/en" for 127.0.0.1 at 2021-07-29 09:14:16 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 3142)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/en" for 127.0.0.1 at 2021-07-29 09:14:17 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3142)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/en" for 127.0.0.1 at 2021-07-29 09:14:17 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 3142)
+Completed 200 OK in 39ms (Views: 33.5ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-07-29 09:14:28 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3142)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 3534)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:14:30 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 3747)
+Completed 200 OK in 52ms (Views: 48.9ms | ActiveRecord: 0.0ms | Allocations: 4140)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:14:31 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3142)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:14:32 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.7ms | Allocations: 3142)
+Completed 200 OK in 51ms (Views: 47.7ms | ActiveRecord: 0.0ms | Allocations: 3536)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:14:32 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.3ms | Allocations: 3150)
+Completed 200 OK in 40ms (Views: 37.2ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:14:33 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.3ms | Allocations: 3142)
+Completed 200 OK in 46ms (Views: 42.0ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:14:33 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.0ms | Allocations: 3142)
+Completed 200 OK in 43ms (Views: 39.3ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/en/static_pages/help" for 127.0.0.1 at 2021-07-29 09:14:34 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.0ms | Allocations: 3752)
+Completed 200 OK in 44ms (Views: 41.1ms | ActiveRecord: 0.0ms | Allocations: 4145)
+
+
+Started GET "/en/static_pages/help" for 127.0.0.1 at 2021-07-29 09:14:36 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.9ms | Allocations: 3152)
+Completed 200 OK in 39ms (Views: 33.0ms | ActiveRecord: 0.0ms | Allocations: 3547)
+
+
+Started GET "/en/static_pages/help" for 127.0.0.1 at 2021-07-29 09:14:36 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.8ms | Allocations: 3142)
+Completed 200 OK in 39ms (Views: 35.8ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:14:38 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 3142)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.0ms | Allocations: 3535)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:16:23 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.9ms | Allocations: 244)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 158.1ms | Allocations: 13688)
+Completed 200 OK in 170ms (Views: 160.4ms | ActiveRecord: 0.0ms | Allocations: 16323)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:16:24 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 3159)
+Completed 200 OK in 38ms (Views: 32.7ms | ActiveRecord: 0.0ms | Allocations: 3560)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:16:26 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.6ms | Allocations: 3151)
+Completed 200 OK in 44ms (Views: 37.5ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:16:26 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.2ms | Allocations: 3155)
+Completed 200 OK in 57ms (Views: 53.8ms | ActiveRecord: 0.0ms | Allocations: 3553)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:16:26 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.3ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 3151)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/en/static_pages/help" for 127.0.0.1 at 2021-07-29 09:16:28 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.7ms | Allocations: 3760)
+Completed 200 OK in 56ms (Views: 51.7ms | ActiveRecord: 0.0ms | Allocations: 4640)
+
+
+Started GET "/en/static_pages/help" for 127.0.0.1 at 2021-07-29 09:16:28 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 3151)
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:16:30 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 3151)
+Completed 200 OK in 38ms (Views: 33.7ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-29 09:19:17 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 9480)
+Completed 200 OK in 58ms (Views: 47.3ms | ActiveRecord: 0.0ms | Allocations: 12117)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:19:19 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.4ms | Allocations: 3319)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 4159)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:19:20 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3151)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:19:21 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.5ms | Allocations: 3151)
+Completed 200 OK in 53ms (Views: 50.1ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:19:21 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3151)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:19:21 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.8ms | Allocations: 3151)
+Completed 200 OK in 38ms (Views: 34.9ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/en" for 127.0.0.1 at 2021-07-29 09:19:22 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.2ms | Allocations: 3756)
+Completed 200 OK in 52ms (Views: 48.5ms | ActiveRecord: 0.0ms | Allocations: 4640)
+
+
+Started GET "/en" for 127.0.0.1 at 2021-07-29 09:19:23 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.8ms | Allocations: 3155)
+Completed 200 OK in 53ms (Views: 47.6ms | ActiveRecord: 0.0ms | Allocations: 3553)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:19:24 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.3ms | Allocations: 3151)
+Completed 200 OK in 44ms (Views: 41.0ms | ActiveRecord: 0.0ms | Allocations: 3545)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-07-29 09:19:30 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3151)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 3543)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:19:32 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.3ms | Allocations: 3754)
+Completed 200 OK in 63ms (Views: 54.4ms | ActiveRecord: 0.0ms | Allocations: 4147)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:19:33 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3151)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:19:33 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | Allocations: 3151)
+Completed 200 OK in 39ms (Views: 35.0ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:19:33 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.6ms | Allocations: 3151)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/en" for 127.0.0.1 at 2021-07-29 09:19:35 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.3ms | Allocations: 3752)
+Completed 200 OK in 58ms (Views: 52.0ms | ActiveRecord: 0.0ms | Allocations: 4145)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:19:36 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 3155)
+Completed 200 OK in 41ms (Views: 34.9ms | ActiveRecord: 0.0ms | Allocations: 3577)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-29 09:29:57 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 9481)
+Completed 200 OK in 55ms (Views: 45.6ms | ActiveRecord: 0.0ms | Allocations: 12118)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:30:05 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.1ms | Allocations: 3263)
+Completed 200 OK in 67ms (Views: 63.8ms | ActiveRecord: 0.0ms | Allocations: 4100)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:30:07 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3155)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3553)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:30:07 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 3155)
+Completed 200 OK in 37ms (Views: 33.9ms | ActiveRecord: 0.0ms | Allocations: 3553)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:30:07 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3151)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3544)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-07-29 09:30:11 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3151)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 3543)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:30:14 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.6ms | Allocations: 3155)
+Completed 200 OK in 42ms (Views: 37.6ms | ActiveRecord: 0.0ms | Allocations: 4013)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:31:02 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 6570)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 7137)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:31:10 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.2ms | Allocations: 9479)
+Completed 200 OK in 64ms (Views: 51.7ms | ActiveRecord: 0.0ms | Allocations: 12114)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:49:35 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 13.2ms | Allocations: 3957)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.2ms | Allocations: 9605)
+Completed 200 OK in 56ms (Views: 47.6ms | ActiveRecord: 0.0ms | Allocations: 12240)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:49:46 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 88)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.5ms | Allocations: 3204)
+Completed 200 OK in 57ms (Views: 54.0ms | ActiveRecord: 0.0ms | Allocations: 3601)
+
+
+Started GET "/en" for 127.0.0.1 at 2021-07-29 09:49:48 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 93)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.5ms | Allocations: 3721)
+Completed 200 OK in 40ms (Views: 34.9ms | ActiveRecord: 0.0ms | Allocations: 4611)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 09:49:49 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 88)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 3204)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.0ms | Allocations: 3602)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-07-29 09:49:53 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.5ms | Allocations: 284)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3440)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 3965)
+
+
+Started GET "/en/static_pages/help" for 127.0.0.1 at 2021-07-29 09:49:55 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.7ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.6ms | Allocations: 3213)
+Completed 200 OK in 41ms (Views: 34.3ms | ActiveRecord: 0.0ms | Allocations: 3710)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 09:49:57 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 1.2ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.8ms | Allocations: 3818)
+Completed 200 OK in 47ms (Views: 44.0ms | ActiveRecord: 0.0ms | Allocations: 4216)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-29 10:48:04 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.1ms | Allocations: 4491)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 9733)
+Completed 200 OK in 35ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 12643)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:48:09 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 3302)
+Completed 200 OK in 40ms (Views: 33.7ms | ActiveRecord: 0.0ms | Allocations: 3957)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:48:10 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3302)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 3956)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:48:11 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3302)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 3956)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:48:11 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 197)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 3298)
+Completed 200 OK in 19ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:48:12 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 197)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.0ms | Allocations: 3298)
+Completed 200 OK in 40ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:48:12 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 197)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 68.8ms | Allocations: 3298)
+Completed 200 OK in 79ms (Views: 71.3ms | ActiveRecord: 0.0ms | Allocations: 3945)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:48:12 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.8ms | Allocations: 197)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.1ms | Allocations: 3306)
+Completed 200 OK in 49ms (Views: 41.2ms | ActiveRecord: 0.0ms | Allocations: 3954)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:48:13 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 197)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.4ms | Allocations: 3298)
+Completed 200 OK in 66ms (Views: 54.1ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:48:43 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 246)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3604)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4961)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:48:44 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3212)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 3856)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:48:56 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3219)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 3862)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:49:29 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 359)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 3706)
+Completed 200 OK in 24ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 5062)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:49:31 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 197)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 3298)
+Completed 200 OK in 28ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 3942)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:49:32 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 197)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3298)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 3941)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:49:33 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.8ms | Allocations: 197)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.4ms | Allocations: 3302)
+Completed 200 OK in 48ms (Views: 40.5ms | ActiveRecord: 0.0ms | Allocations: 3949)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:49:33 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.8ms | Allocations: 3303)
+Completed 200 OK in 42ms (Views: 35.3ms | ActiveRecord: 0.0ms | Allocations: 3959)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 10:49:34 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.1ms | Allocations: 197)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 61.2ms | Allocations: 3308)
+Completed 200 OK in 74ms (Views: 67.4ms | ActiveRecord: 0.0ms | Allocations: 3955)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-29 10:50:45 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.1ms | Allocations: 4033)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 9675)
+Completed 200 OK in 42ms (Views: 29.1ms | ActiveRecord: 0.0ms | Allocations: 12561)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-29 10:51:19 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 122)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3237)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 3864)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-29 10:52:20 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.6ms | Allocations: 4034)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 9676)
+Completed 200 OK in 28ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 12590)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-29 10:54:14 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.3ms | Allocations: 4033)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 9675)
+Completed 200 OK in 32ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 12628)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-07-29 10:54:20 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 122)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 3237)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 3932)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-07-29 10:54:21 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 7.0ms | Allocations: 366)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 3520)
+Completed 200 OK in 31ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 4341)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-07-29 10:54:21 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.9ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 3260)
+Completed 200 OK in 20ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 3955)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-07-29 10:54:30 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.9ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 3256)
+Completed 200 OK in 17ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 3942)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-07-29 10:54:36 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3260)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 3954)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-29 13:51:55 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.5ms | Allocations: 4363)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 10005)
+Completed 200 OK in 32ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 12958)
+
+
+Started GET "/en" for 127.0.0.1 at 2021-07-29 13:52:05 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 186)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3814)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 4995)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 13:52:07 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 181)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3888)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 4583)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 13:53:44 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 6.8ms | Allocations: 3510)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 6987)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 7862)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-07-29 13:53:55 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 5.6ms | Allocations: 427)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.2ms | Allocations: 3581)
+Completed 200 OK in 52ms (Views: 42.8ms | ActiveRecord: 0.0ms | Allocations: 4402)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-07-29 13:54:22 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 5.6ms | Allocations: 339)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.7ms | Allocations: 3696)
+Completed 200 OK in 58ms (Views: 47.9ms | ActiveRecord: 0.0ms | Allocations: 5095)
+
+
+Started GET "/en/static_pages/help" for 127.0.0.1 at 2021-07-29 13:54:26 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 2.1ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.1ms | Allocations: 3865)
+Completed 200 OK in 51ms (Views: 45.4ms | ActiveRecord: 0.0ms | Allocations: 5038)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-29 13:57:35 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.4ms | Allocations: 4184)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 9826)
+Completed 200 OK in 22ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 12779)
+
+
+Started GET "/vi" for 127.0.0.1 at 2021-07-29 13:57:37 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 122)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.9ms | Allocations: 3240)
+Completed 200 OK in 41ms (Views: 31.9ms | ActiveRecord: 0.0ms | Allocations: 3936)
+
+
+Started GET "/en" for 127.0.0.1 at 2021-07-29 13:57:38 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.1ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.5ms | Allocations: 3837)
+Completed 200 OK in 61ms (Views: 52.0ms | ActiveRecord: 0.0ms | Allocations: 5017)
+
+
+Started GET "/en" for 127.0.0.1 at 2021-07-29 13:59:05 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.1ms | Allocations: 4033)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 9676)
+Completed 200 OK in 23ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 12637)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-07-29 13:59:10 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 7.4ms | Allocations: 382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 3536)
+Completed 200 OK in 51ms (Views: 41.7ms | ActiveRecord: 0.0ms | Allocations: 4733)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 13:59:13 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 3875)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 4571)
+
+
+Started GET "/en/static_pages/help" for 127.0.0.1 at 2021-07-29 13:59:14 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 2.1ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.2ms | Allocations: 3864)
+Completed 200 OK in 58ms (Views: 49.2ms | ActiveRecord: 0.0ms | Allocations: 4661)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 13:59:14 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 3.3ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.4ms | Allocations: 3272)
+Completed 200 OK in 50ms (Views: 42.0ms | ActiveRecord: 0.0ms | Allocations: 3988)
+
+
+Started GET "/en/static_pages/help" for 127.0.0.1 at 2021-07-29 13:59:17 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 2.2ms | Allocations: 156)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.2ms | Allocations: 3267)
+Completed 200 OK in 41ms (Views: 34.5ms | ActiveRecord: 0.0ms | Allocations: 3954)
+
+
+Started GET "/vi/static_pages/help" for 127.0.0.1 at 2021-07-29 13:59:17 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 2.2ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.9ms | Allocations: 3282)
+Completed 200 OK in 43ms (Views: 34.5ms | ActiveRecord: 0.0ms | Allocations: 3983)
+
+
+Started GET "/" for 127.0.0.1 at 2021-07-29 14:04:20 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.3ms | Allocations: 4033)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 303.6ms | Allocations: 16407)
+Completed 200 OK in 321ms (Views: 310.5ms | ActiveRecord: 0.0ms | Allocations: 19335)
+
+
+Started GET "/en" for 127.0.0.1 at 2021-07-29 14:04:28 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3163)
+Completed 200 OK in 22ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 4344)
+
+
