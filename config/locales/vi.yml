@@ -1,0 +1,18 @@
+vi:
+  layouts:
+    application:
+      title: "Ruby on Rails Co ban"
+  static_pages:
+    home:
+      fore_title: "Trang chủ"
+      name: "Ứng dụng mẫu"
+      intro_1: "Đây là trang chủ của"
+      name_tutorial: "Ruby on Rails Co Ban"
+      intro_2: "ứng dụng mẫu."
+    help:
+      fore_title: "Hỗ trợ"
+      intro_1: "Nhận trợ giúp về Ruby on Rails Tutorial tại"
+      name: "Rails Tutorial help page"
+      intro_2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy tham khảo"
+      name_2: "Ruby on Rails Tutorial."
+      intro_3: "sách"
