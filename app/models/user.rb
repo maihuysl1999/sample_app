@@ -20,6 +20,10 @@ class User < ApplicationRecord
             length: {
               minimum: Settings.validate.password.min_length
             }
+
+  PERMITTED_FIELDS = [:name, :email, :password,
+                      :password_confirmation].freeze
+
   has_secure_password
 
   private

@@ -11,4 +11,12 @@ class ApplicationController < ActionController::Base
   def default_url_options
     {locale: I18n.locale}
   end
+
+  rescue_from ActiveRecord::RecordNotFound, with: :deny_access
+
+  protected
+  def deny_access
+    flash[:danger] = t ".user_not_found"
+    redirect_to root_url
+  end
 end
