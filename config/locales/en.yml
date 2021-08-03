@@ -24,6 +24,9 @@ en:
       intro_2: "To get help on this sample app, see the"
       name_2: "Ruby on Rails Tutorial"
       intro_3: "book"
+    login:
+      fore_title: "Login"
+      sign_up_now: "Sign up now"
   users:
     new:
       sign_up: "Sign up"
@@ -36,3 +39,9 @@ en:
       created_at: "Created at: "
       updated_at: "Updated at: "
       user_not_found: "User not found!"
+  sessions:
+    new:
+      new_user: "New User?"
+      login: "Log in"
+      sign_up: "Sign up now!"
+    invalid: "invalid_email_password_combination"
