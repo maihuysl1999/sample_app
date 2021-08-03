@@ -1,4 +1,5 @@
 en:
+  sample_app: "Sample app"
   not_found: "Not found."
   layouts:
     application:
@@ -36,6 +37,7 @@ en:
     create:
       welcome_to_the_sample_app!: "Welcome to the sample app!"
       registration_failed: "Registration failed"
+      check_email: "Please check your email to activate your account."
     show:
       created_at: "Created at: "
       updated_at: "Updated at: "
@@ -70,3 +72,21 @@ en:
       sign_up: "Sign up now!"
       remember_me: "Remember me on this computer"
     invalid: "invalid_email_password_combination"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      greetings: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Active"
+  account_activations:
+    edit:
+      account_activated: "Account activated!"
+      invalid_activation: "Invalid activation link"
+  activerecord:
+    models:
+      user:
+        one: "User"
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirm password"

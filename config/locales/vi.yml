@@ -1,4 +1,5 @@
 vi:
+  sample_app: "Sample app"
   not_found: "Không tìm thấy."
   layouts:
     application:
@@ -35,6 +36,7 @@ vi:
     create:
       welcome_to_the_sample_app!: "Chào mừng đến với ứng dụng này!"
       registration_failed: "Đăng ký thất bại"
+      check_email: "Hãy kiểm tra thư để kích hoạt tài khoản."
     show:
       created_at: "Ngày tạo: "
       updated_at: "Ngày chỉnh sửa: "
@@ -69,3 +71,21 @@ vi:
       sign_up: "Đăng ký ngay!"
       remember_me: "Lưu đăng nhập"
     invalid: "Email, mật khẩu không hợp lệ"
+  user_mailer:
+    account_activation:
+      subject: "Xác thực tài khoản"
+      greetings: "Xin chào"
+      welcome: "Chào mừng bạn đến với ứng dụng! Hãy nhấn vào link bên dưới để kích hoạt tài khoản:"
+      active: "Kích Hoạt"
+  account_activations:
+    edit:
+      account_activated: "Tài khoản đã được kích hoạt!"
+      invalid_activation: "Link kích hoạt không hợp lệ"
+  activerecord:
+    attributes:
+      user:
+        one: "Người dùng"
+        name: "Tên"
+        email: "Địa chỉ email"
+        password: "Password"
+        password_confirmation: "Nhập lại password"
