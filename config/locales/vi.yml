@@ -43,4 +43,5 @@ vi:
       new_user: "Người dùng mới?"
       login: "Đăng nhập"
       sign_up: "Đăng ký ngay!"
+      remember_me: "Lưu đăng nhập"
     invalid: "Email, mật khẩu không hợp lệ"
