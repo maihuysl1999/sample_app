@@ -18,6 +18,7 @@ en:
       name_tutorial: "Ruby on Rails Tutorial"
       intro_2: "sample application."
       signup: "Sign up!"
+      micropost_feed: "Micropost feed"
     help:
       fore_title: "Help"
       name: "Help"
@@ -42,6 +43,7 @@ en:
       created_at: "Created at: "
       updated_at: "Updated at: "
       user_not_found: "User not found!"
+      microposts: "Microposts"
     edit:
       edit_profile: "Edit"
       update_profile: "Update your profile"
@@ -113,6 +115,29 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Confirm password"
-  password_reset:
-    forgot_password: "Forgot password"
-    submit: "Submit"
+  please_log_in: "Please log in"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "delete"
+      confirm: "You sure?"
+    create:
+      created: "Micropost created!"
+      create_failed: "Failed to create micropost!"
+    fail: "Fail"
+    success_delete: "Micropost deleted"
+    fail_delete: "Deleted Fail"
+  shared:
+    user_info:
+      micropost: "Microposts"
+      view_profile: "view my profile"
+    error_messages:
+      info: "The form contains"
+      error: "error"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+  post: "Post"
+  image_type: "must be a valid image format"
+  image_size: "should be less than %{size} MB"
+  message_image: "Maximum file size is 5 MB. Please choose a smaller file."

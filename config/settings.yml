@@ -15,6 +15,20 @@ validate:
   password:
     min_length: 6
     reset_expried_time: 2
+  micropost:
+    max: 140
+  image:
+    size: 5
+
 gravatar:
   default_size: 80
   list_user_size: 50
+  list_micropost_size: 50
+
+image:
+  limit: [500, 500]
+
+image_restricted_types:
+  - image/jpeg
+  - image/gif
+  - image/png
