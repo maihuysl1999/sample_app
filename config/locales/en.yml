@@ -67,6 +67,13 @@ en:
       success_update: "Profile updated"
       update_fail: "Update fail"
     please_login: "Please Login"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_profile: "View profile"
+      microposts: "Microposts"
   sessions:
     new:
       new_user: "New User?"
@@ -137,7 +144,12 @@ en:
       error: "error"
     micropost_form:
       placeholder: "Compose new micropost..."
+    stats:
+      following: "following"
+      follower: "follower"
   post: "Post"
   image_type: "must be a valid image format"
   image_size: "should be less than %{size} MB"
   message_image: "Maximum file size is 5 MB. Please choose a smaller file."
+  following: "Following"
+  followers: "Follower"

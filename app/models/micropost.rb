@@ -7,7 +7,6 @@ class Micropost < ApplicationRecord
 
   PERMITTED_FIELDS = %i(content image).freeze
 
-  scope :newest, ->{order created_at: :desc}
   validates :user_id, presence: true
   validates :content, presence: true,
             length:
@@ -21,6 +20,10 @@ class Micropost < ApplicationRecord
               less_than: Settings.validate.image.size.megabytes,
               message: I18n.t("image_size", size: Settings.validate.image.size)
             }
+
+  scope :newest, ->{order created_at: :desc}
+
+  scope :by_user_id, ->(id){where user_id: id}
 
   def display_image
     image.variant resize_to_limit: Settings.image.limit
