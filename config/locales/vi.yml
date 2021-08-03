@@ -1,4 +1,5 @@
 vi:
+  not_found: "Không tìm thấy."
   layouts:
     application:
       title: "Ruby on Rails Co ban"
@@ -38,6 +39,29 @@ vi:
       created_at: "Ngày tạo: "
       updated_at: "Ngày chỉnh sửa: "
       user_not_found: "Người dùng không tồn tại !"
+    edit:
+      edit_profile: "Chỉnh sửa"
+      update_profile: "Cập nhật thông tin cá nhân"
+      change: "Thay đổi"
+      save_changes: "Lưu thay đổi"
+    index:
+      list_user: "Danh sách người dùng"
+      pagination:
+        first: "« Đầu"
+        last: "Cuối »"
+        previous: "‹ Trước"
+        next: "Tiếp ›"
+        truncate: "…"
+    user:
+      delete: "Xóa người dùng"
+      confirm: "Xác nhận xóa"
+    destroy:
+      success_delete: "Xóa thành công"
+      fail_delete: "Xóa thất bại"
+    update:
+      success_update: "Cập nhật thông tin thành công"
+      update_fail: "Cập nhật thông tin khong thành công"
+    please_login: "Vui lòng đăng nhập"
   sessions:
     new:
       new_user: "Người dùng mới?"

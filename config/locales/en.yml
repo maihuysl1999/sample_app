@@ -1,4 +1,5 @@
 en:
+  not_found: "Not found."
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -39,6 +40,29 @@ en:
       created_at: "Created at: "
       updated_at: "Updated at: "
       user_not_found: "User not found!"
+    edit:
+      edit_profile: "Edit"
+      update_profile: "Update your profile"
+      change: "Change"
+      save_changes: "Save Changes"
+    index:
+      list_user: "All users"
+      pagination:
+        first: "« FIRST"
+        last: "LAST »"
+        previous: "‹ PREV"
+        next: "NEXT ›"
+        truncate: "…"
+    user:
+      delete: "Delete"
+      confirm: "You sure?"
+    destroy:
+      success_delete: "User deleted"
+      fail_delete: "Fail"
+    update:
+      success_update: "Profile updated"
+      update_fail: "Update fail"
+    please_login: "Please Login"
   sessions:
     new:
       new_user: "New User?"
