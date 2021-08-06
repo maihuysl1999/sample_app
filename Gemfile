@@ -6,6 +6,7 @@ ruby "2.7.1"
 gem "bcrypt", "3.1.11"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap-sass", "3.4.1"
+gem "bootstrap-will_paginate", "1.0.0"
 gem "config"
 gem "faker", "2.1.2"
 gem "figaro"

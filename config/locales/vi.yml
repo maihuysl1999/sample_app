@@ -70,6 +70,7 @@ vi:
       login: "Đăng nhập"
       sign_up: "Đăng ký ngay!"
       remember_me: "Lưu đăng nhập"
+      forgot_password: "Quên mật khẩu"
     invalid: "Email, mật khẩu không hợp lệ"
   user_mailer:
     account_activation:
@@ -77,10 +78,32 @@ vi:
       greetings: "Xin chào"
       welcome: "Chào mừng bạn đến với ứng dụng! Hãy nhấn vào link bên dưới để kích hoạt tài khoản:"
       active: "Kích Hoạt"
+    password_reset:
+      subject: "Password reset"
+      name: "Reset mật khẩu"
+      info: "Nhấn vào link bên dưới để đặt lại mật khẩu:"
+      hi: "Xin chào "
+      info_2: "Đương link này sẽ hết hạn sau 2 tiếng."
+      info_3: "Nếu bạn không muốn đổi mật khẩu, hãy bỏ qua mail này. Mật khẩu của bạn sẽ không đổi."
+      reset: "Đặt lại Mật khẩu"
   account_activations:
     edit:
       account_activated: "Tài khoản đã được kích hoạt!"
       invalid_activation: "Link kích hoạt không hợp lệ"
+  password_resets:
+    reset_expired: "Mật khẩu đã qúa hạn để đặt lại."
+    reset_success: "Mật khẩu đã được đặt lại."
+    reset_fail: "Đặt lại mật khẩu thất bại."
+    empty_password: "không thể rỗng"
+    new:
+      forgot_password: "Quên mật khẩu"
+      submit: "Xác nhận"
+    create:
+      success: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+      fail: "Không tìm thấy địa chỉ email"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      submit: "Cập nhật mật khẩu"
   activerecord:
     attributes:
       user:
