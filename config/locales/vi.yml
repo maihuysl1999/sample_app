@@ -18,6 +18,7 @@ vi:
       name_tutorial: "Ruby on Rails Co Ban"
       intro_2: "ứng dụng mẫu."
       signup: "Đăng ký ngay!"
+      micropost_feed: "Danh sách bài viết"
     help:
       fore_title: "Hỗ trợ"
       intro_1: "Nhận trợ giúp về Ruby on Rails Tutorial tại"
@@ -41,6 +42,7 @@ vi:
       created_at: "Ngày tạo: "
       updated_at: "Ngày chỉnh sửa: "
       user_not_found: "Người dùng không tồn tại !"
+      microposts: "Bài viết"
     edit:
       edit_profile: "Chỉnh sửa"
       update_profile: "Cập nhật thông tin cá nhân"
@@ -112,3 +114,29 @@ vi:
         email: "Địa chỉ email"
         password: "Password"
         password_confirmation: "Nhập lại password"
+  please_log_in: "Bạn phải đăng nhập để tiếp tục"
+  microposts:
+    micropost:
+      posted: "Được đăng"
+      ago: "trước"
+      delete: "Xóa"
+      confirm: "Bạn có chắc chắn?"
+    create:
+      created: "Tạo bài viết thành công"
+      create_failed: "Tạo bài viết thất bại"
+    fail: "Lỗi"
+    success_delete: "Xóa Micropost thành công"
+    fail_delete: "Deleted Fail"
+  shared:
+    user_info:
+      micropost: "Bài viết"
+      view_profile: "Thông tin cá nhân"
+    error_messages:
+      info: "Form gặp"
+      error: "lỗi"
+    micropost_form:
+      placeholder: "Tạo bài viết mới..."
+  post: "Gửi"
+  image_type: "phải là định dạng hình ảnh hợp lệ"
+  image_size: "phải nhỏ hơn %{size} MB"
+  message_image: "Kích thước tệp tối đa là %{size} MB. Vui lòng chọn một tệp nhỏ hơn."

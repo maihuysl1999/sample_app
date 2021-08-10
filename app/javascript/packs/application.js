@@ -14,3 +14,5 @@ ActiveStorage.start()
 
 require("jquery")
 import "bootstrap"
+
+require("./micropost")

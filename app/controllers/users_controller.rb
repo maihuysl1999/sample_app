@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @users = User.all.page params[:page]
   end
 
-  def show; end
+  def show
+    @microposts = load_feed_page @user, params[:page]
+  end
 
   def new
     @user = User.new

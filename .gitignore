@@ -60,6 +60,7 @@ build-iPhoneSimulator/
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
 
+/public/packs
 
 /config/database.yml
 /config/credentials.yml.enc
@@ -76,4 +77,4 @@ test
 # Ignore application configuration
 /config/application.yml
 
-storage
+/storage
